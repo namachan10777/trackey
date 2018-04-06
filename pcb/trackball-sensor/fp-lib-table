@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name trackey)(type KiCad)(uri ../lib/trackey.pretty)(options "")(descr ""))
+)
