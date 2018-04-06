@@ -1,0 +1,5 @@
+/inventor/OldVersions/
+lockfile.lck
+*-cache.lib
+*.bak
+*.kicad_pcb-bak
