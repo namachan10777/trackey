@@ -3,4 +3,5 @@ lockfile.lck
 *-cache.lib
 *.bck
 *.bak
+*.net
 *.kicad_pcb-bak
