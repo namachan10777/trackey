@@ -7,19 +7,19 @@ MIT License.
 Copyright (c) 2018 Nakano Masaki
 
 ## Exception
- * ./pcb/lib/4x6t2.pretty/MX_ALPS_KH_u1.00.kicad_mod
- * ./pcb/lib/4x6t2.pretty/D_SOD-123.kicad_mod
- * ./pcb/lib/4x6t2.pretty/LED_D3.0mm.kicad_mod
- * ./pcb/lib/4x6t2.pretty/R_Axial.kicad_mod
- * ./pcb/lib/4x6t2.pretty/SW_Tactile_SPST_Angled.kicad_mod
+ * ./pcb/lib/trackey.pretty/MX_ALPS_KH_u1.00.kicad_mod
+ * ./pcb/lib/trackey.pretty/D_SOD-123.kicad_mod
+ * ./pcb/lib/trackey.pretty/LED_D3.0mm.kicad_mod
+ * ./pcb/lib/trackey.pretty/R_Axial.kicad_mod
+ * ./pcb/lib/trackey.pretty/SW_Tactile_SPST_Angled.kicad_mod
 These footprint's original author is KiCAD.
 These are distributed under CC-BY-SA 4.0.
 
 # Third party
 ## helix
 ### point of use
- * Key footprint (./pcb/lib/4x6t2.pretty/MX_ALPS_KH_u1.00.kicad_mod) (modified)
- * Audio Jack footprint (./pcb/lib/4x6t2.pretty/MJ-4PP-9_rev2.kicad_mod)
+ * Key footprint (./pcb/lib/trackey.pretty/MX_ALPS_KH_u1.00.kicad_mod) (modified)
+ * Audio Jack footprint (./pcb/lib/trackey.pretty/MJ-4PP-9_rev2.kicad_mod)
 ### LICENSE
 >Copyright (c) 2018 MakotoKurauchi
 >
