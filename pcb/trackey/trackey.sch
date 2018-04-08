@@ -589,7 +589,6 @@ Text Label 9650 2400 2    60   ~ 0
 ROW1
 Text Label 9650 2300 2    60   ~ 0
 ROW0
-NoConn ~ 3500 3250
 Text Label 6100 2650 2    60   ~ 0
 Key_IO_RST
 Text Label 3500 3800 2    60   ~ 0
@@ -627,14 +626,10 @@ F 3 "" H 8500 3800 50  0001 C CNN
 	1    8250 3700
 	1    0    0    -1  
 $EndComp
-Text Label 3500 3000 2    60   ~ 0
-TX
-Text Label 3500 3100 2    60   ~ 0
-RX
 Text Label 8450 3800 0    60   ~ 0
-TX
+SDA
 Text Label 8450 3900 0    60   ~ 0
-RX
+SCL
 $Comp
 L +5V #PWR017
 U 1 1 5AC87B02
@@ -688,7 +683,6 @@ F 3 "" H 4250 2550 60  0001 C CNN
 	1    4300 3500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3500 3350
 $Comp
 L R R4
 U 1 1 5AC9D6F6
@@ -897,4 +891,62 @@ Wire Wire Line
 	6850 5550 6850 5450
 Wire Wire Line
 	6650 5550 6650 5450
+NoConn ~ 3500 3000
+NoConn ~ 3500 3100
+Text Label 3500 3250 2    60   ~ 0
+SDA
+Text Label 3500 3350 2    60   ~ 0
+SCL
+Text Label 8450 5850 3    60   ~ 0
+SDA
+Text Label 8650 5850 3    60   ~ 0
+SCL
+$Comp
+L R R12
+U 1 1 5ACA0868
+P 8450 5700
+F 0 "R12" V 8530 5700 50  0000 C CNN
+F 1 "2.2kΩ" V 8450 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8380 5700 50  0001 C CNN
+F 3 "" H 8450 5700 50  0001 C CNN
+	1    8450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5ACA08B5
+P 8650 5700
+F 0 "R13" V 8730 5700 50  0000 C CNN
+F 1 "2.2kΩ" V 8650 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8580 5700 50  0001 C CNN
+F 3 "" H 8650 5700 50  0001 C CNN
+	1    8650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR028
+U 1 1 5ACA0CC7
+P 8650 5450
+F 0 "#PWR028" H 8650 5300 50  0001 C CNN
+F 1 "+5V" H 8650 5590 50  0000 C CNN
+F 2 "" H 8650 5450 50  0001 C CNN
+F 3 "" H 8650 5450 50  0001 C CNN
+	1    8650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR029
+U 1 1 5ACA0D47
+P 8450 5450
+F 0 "#PWR029" H 8450 5300 50  0001 C CNN
+F 1 "+5V" H 8450 5590 50  0000 C CNN
+F 2 "" H 8450 5450 50  0001 C CNN
+F 3 "" H 8450 5450 50  0001 C CNN
+	1    8450 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5450 8450 5550
+Wire Wire Line
+	8650 5450 8650 5550
 $EndSCHEMATC
