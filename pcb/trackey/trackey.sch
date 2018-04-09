@@ -187,7 +187,7 @@ U 1 1 5AC84BEC
 P 8350 2450
 F 0 "J1" H 8350 2750 50  0000 C CNN
 F 1 "trackball_port" H 8350 2050 50  0000 C CNN
-F 2 "Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight" H 8350 2450 50  0001 C CNN
+F 2 "Connectors_JST:JST_XH_S06B-XH-A_06x2.50mm_Angled" H 8350 2450 50  0001 C CNN
 F 3 "" H 8350 2450 50  0001 C CNN
 	1    8350 2450
 	1    0    0    -1  
@@ -502,23 +502,9 @@ Text Label 3500 6700 2    60   ~ 0
 Key_SS
 Text Label 5100 5800 0    60   ~ 0
 RST
-$Comp
-L Arduino_Pro_Micro U2
-U 1 1 5AC8B8D8
-P 4300 6300
-F 0 "U2" H 4800 5400 60  0000 C CNN
-F 1 "Arduino_Pro_Micro" H 4900 5300 60  0000 C CNN
-F 2 "trackey:Arduino_Pro_Micro" H 4250 5350 60  0001 C CNN
-F 3 "" H 4250 5350 60  0001 C CNN
-	1    4300 6300
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3500 5800
 NoConn ~ 3500 5900
-NoConn ~ 3500 6050
-NoConn ~ 3500 6150
 NoConn ~ 3500 6400
-NoConn ~ 3500 6600
 Text Label 3500 3500 2    60   ~ 0
 has_trackball
 Text Label 3500 3700 2    60   ~ 0
@@ -533,7 +519,7 @@ U 1 1 5AC8DE1C
 P 9200 2450
 F 0 "J3" H 9200 2850 50  0000 C CNN
 F 1 "COL_port" H 9200 1950 50  0000 C CNN
-F 2 "Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight" H 9200 2450 50  0001 C CNN
+F 2 "Connectors_JST:JST_XH_S08B-XH-A_08x2.50mm_Angled" H 9200 2450 50  0001 C CNN
 F 3 "" H 9200 2450 50  0001 C CNN
 	1    9200 2450
 	1    0    0    -1  
@@ -576,7 +562,7 @@ U 1 1 5AC8E68A
 P 9850 2400
 F 0 "J4" H 9850 2600 50  0000 C CNN
 F 1 "ROW_port" H 9850 2100 50  0000 C CNN
-F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 9850 2400 50  0001 C CNN
+F 2 "Connectors_JST:JST_XH_S04B-XH-A_04x2.50mm_Angled" H 9850 2400 50  0001 C CNN
 F 3 "" H 9850 2400 50  0001 C CNN
 	1    9850 2400
 	1    0    0    -1  
@@ -949,4 +935,21 @@ Wire Wire Line
 	8450 5450 8450 5550
 Wire Wire Line
 	8650 5450 8650 5550
+Text Label 3500 6600 2    60   ~ 0
+Key_IO_RST
+$Comp
+L Arduino_Pro_Micro U2
+U 1 1 5AC8B8D8
+P 4300 6300
+F 0 "U2" H 4800 5400 60  0000 C CNN
+F 1 "Arduino_Pro_Micro" H 4900 5300 60  0000 C CNN
+F 2 "trackey:Arduino_Pro_Micro" H 4250 5350 60  0001 C CNN
+F 3 "" H 4250 5350 60  0001 C CNN
+	1    4300 6300
+	1    0    0    -1  
+$EndComp
+Text Label 3500 6050 2    60   ~ 0
+SDA
+Text Label 3500 6150 2    60   ~ 0
+SCL
 $EndSCHEMATC
