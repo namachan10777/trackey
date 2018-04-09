@@ -1,4 +1,6 @@
 # Trackey
+![trackey](./trackey.png)
+
 A splited keyboard that has trackball.
 
 # License
